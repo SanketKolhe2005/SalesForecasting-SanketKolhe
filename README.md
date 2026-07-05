@@ -1,5 +1,8 @@
 # 📈 Sales Forecasting & Demand Intelligence System
-
+🔗 Project Links
+Live Streamlit App: https://salesforecasting-sanketkolhe-emqfnnw33mstxwhf7vqizy.streamlit.app/
+Google Colab Notebook: https://colab.research.google.com/drive/15Z248zzp0j3t_Uc0Q43oJBtbOvsRy-eM?usp=sharing
+GitHub Repository: https://github.com/SanketKolhe2005/SalesForecasting-SanketKolhe
 ## 📌 Project Overview
 
 This project is an end-to-end **Sales Forecasting & Demand Intelligence System** developed using Python, Machine Learning, Time Series Analysis, and Streamlit.
