@@ -38,20 +38,30 @@ The system analyzes historical Superstore sales data, forecasts future sales usi
 ```
 SalesForecasting_SanketKolhe/
 │
-├── analysis.ipynb
-├── app.py
-├── train.csv
-├── clean_sales.csv
-├── anomaly.csv
-├── clusters.csv
-├── requirements.txt
-├── summary.pdf
-├── README.md
+├── analysis.ipynb                  # Complete notebook (Tasks 1–8)
+├── app.py                          # Streamlit dashboard
+├── train.csv                       # Original Superstore dataset
+├── clean_sales.csv                 # Cleaned dataset
+├── anomaly.csv                     # Anomaly detection results
+├── clusters.csv                    # Product clustering results
+├── requirements.txt                # Required Python libraries
+├── README.md                       # Project documentation
+├── summary.pdf                     # Executive business report
+│
+├── model/
+│   └── xgboost_model.pkl           # Trained XGBoost model
 │
 ├── charts/
+│   ├── category_sales.png
+│   ├── monthly_sales_trend.png
+│   ├── time_series_decomposition.png
+│   ├── xgboost_forecast.png
+│   ├── category_region_forecast.png
+│   ├── anomaly_detection.png
+│   ├── elbow_method.png
+│   └── product_clusters.png
 │
-└── model/
-    └── xgboost_model.pkl
+└── .gitignore                      # Optional (recommended)
 ```
 
 ---
